@@ -1,6 +1,0 @@
-<h2>Admin Panel</h2>
-{% for v in voters %}
-{{v[1]}} - {{v[2]}} - {{v[6]}} <a href="/approve/{{v[2]}}">Approve</a><br>
-{% endfor %}
-<h3>Blockchain</h3>
-<pre>{{chain|tojson(indent=2)}}</pre>
